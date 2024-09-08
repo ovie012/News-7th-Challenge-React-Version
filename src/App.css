@@ -220,6 +220,51 @@ main {
   opacity: 0.8;
 }
 
+@media only screen and (max-width:1200px) {
+  .first-body-texts h1 {
+    font-size: 2.7rem;
+  }
+
+  .first-body-texts p {
+    font-size: 1rem;
+  }
+
+  .first-body-texts button {
+    font-size: 0.7rem;
+    letter-spacing: 3px;
+  }
+
+  .news h1 {
+    font-size: 1.7rem;
+  }
+
+  .each h6 {
+    font-size: 1rem;
+  }
+  
+  .each p {
+    font-size: 0.8rem;
+  }
+
+  .ending-texts h2 {
+    font-size: 1.6rem;
+  }
+  
+  .ending-texts h6 {
+    font-size: 0.75rem;
+  }
+
+  .ending p {
+    font-size: 0.85rem;
+  }
+  
+  .ending .img {
+    min-width: 105px;
+    height: 110px;
+    margin-right: 10px;
+  }
+}
+
 @media only screen and (max-width:500px) {
   .container {
       grid-template-columns: 1fr;
