@@ -373,4 +373,8 @@ main {
   .active {
       display: block;
   }
+
+  .ending .img {
+    width: 110px;
+  }
 }
